@@ -3036,7 +3036,7 @@ form .inputs-description {
     padding: 0 2rem;
   }
   .feature-item-wrapper p {
-    max-width: 310px;
+    /* max-width: 310px; */
   }
 }
 
