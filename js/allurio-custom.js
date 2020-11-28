@@ -206,7 +206,7 @@ $(function() {
   // --------------------------------------------- //
   // KBW-Countdown Start
   // --------------------------------------------- //
-  $('#countdown').countdown({until: $.countdown.UTCDate(+10, 2021, 1, 26), format: 'D'});
+  $('#countdown').countdown({until: $.countdown.UTCDate(+10, 2020, 11-1, 30), format: 'D'});
   // --------------------------------------------- //
   // KBW-Countdown End
   // --------------------------------------------- //
