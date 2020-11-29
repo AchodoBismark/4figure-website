@@ -3073,8 +3073,9 @@ form .inputs-description {
 
 @media only screen and (min-width: 992px) {
   .partner-link img {
-    opacity: .6;
+    opacity: 1;
   }
+
   .no-touch .partner-link:hover img {
     opacity: 1;
   }
