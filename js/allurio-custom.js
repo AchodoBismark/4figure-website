@@ -206,7 +206,7 @@ $(function() {
   // --------------------------------------------- //
   // KBW-Countdown Start
   // --------------------------------------------- //
-  $('#countdown').countdown({until: $.countdown.UTCDate(+10, 2020, 11-1, 30), format: 'D'});
+  $('#countdown').countdown({until: $.countdown.UTCDate(+10, 2020, 12-1, 26), format: 'D'});
   // --------------------------------------------- //
   // KBW-Countdown End
   // --------------------------------------------- //
@@ -229,7 +229,7 @@ $(function() {
   // --------------------------------------------- //
   $('.notify-form').ajaxChimp({
     callback: mailchimpCallback,
-    url: 'https://besaba.us10.list-manage.com/subscribe/post?u=e8d650c0df90e716c22ae4778&amp;id=0f58c08fd1'
+    url: 'https://4figure.us7.list-manage.com/subscribe/post?u=9933a94bb663445dd78851581&amp;id=c3cc9924f5'
   });
 
   function mailchimpCallback(resp) {
@@ -264,7 +264,7 @@ $(function() {
 		var th = $(this);
 		$.ajax({
 			type: "POST",
-			url: "mail.php", //Change
+			url: "../mail/mail-m.php", //Change
 			data: th.serialize()
 		}).done(function() {
       $('.contact').find('.form').addClass('is-hidden');

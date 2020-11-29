@@ -1,16 +1,4 @@
 /*! ------------------------------------------------
-   Project Name: Allurio - Coming Soon & Portfolio Template
-   Project Description: Allurio - versatile and trendy coming soon & portfolio template to kick-start your project
-   Tags: allurio, coming soon, under construction, template, coming soon page, landing page, portfolio, one page, html5, css3
-   Version: 1.0.0
-   Build Date: September 2019
-   Last Update: September 2019
-   This product is available exclusively on Themeforest
-   Author: mix_design
-   Author URI: http://mixdesign.club
-   File name: main.css
-   ------------------------------------------------
-
    ------------------------------------------------
    Table of Contents
    ------------------------------------------------
@@ -103,6 +91,8 @@
 /* ------------------------------------------------*/
 /* Fonts Start */
 /* ------------------------------------------------*/
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,400;0,700;1,400;1,700,600&display=swap');
+
 @font-face {
   font-family: "OpenSans";
   font-style: normal;
@@ -125,10 +115,10 @@
 }
 
 @font-face {
-  font-family: "OldStandardTT";
+  font-family: "Mulish";
   font-style: normal;
   font-weight: 400;
-  src: url("../fonts/OldStandardTT-Regular/OldStandardTT-Regulard41d.eot?#iefix") format("embedded-opentype"), url("../fonts/OldStandardTT-Regular/OldStandardTT-Regular.woff") format("woff"), url("../fonts/OldStandardTT-Regular/OldStandardTT-Regular.ttf") format("truetype"), url("../fonts/OldStandardTT-Regular/OldStandardTT-Regular.svg#OldStandardTT") format("svg");
+  src: url("../fonts/Mulish-Regular/Mulish-Regulard41d.eot?#iefix") format("embedded-opentype"), url("../fonts/Mulish-Regular/Mulish-Regular.woff") format("woff"), url("../fonts/Mulish-Regular/Mulish-Regular.ttf") format("truetype"), url("../fonts/Mulish-Regular/Mulish-Regular.svg#Mulish") format("svg");
 }
 
 /* ------------------------------------------------*/
@@ -328,7 +318,7 @@ body.loaded .intro__controls {
 /* Typography Start */
 /* ------------------------------------------------*/
 h1 {
-  font: normal 400 5rem/1.06 "OldStandardTT", sans-serif;
+  font: normal 600 5rem/1.06 "Mulish", sans-serif;
   margin: 2.4rem 0 2.8rem 0;
 }
 
@@ -433,7 +423,7 @@ h1.large {
 }
 
 h2 {
-  font: normal 400 4rem/1.1 "OldStandardTT", sans-serif;
+  font: normal 400 4rem/1.1 "Mulish", sans-serif;
   color: #111111;
   margin-bottom: 3rem;
 }
@@ -489,7 +479,7 @@ h2.light {
 }
 
 h3 {
-  font: normal 400 3rem/1.1 "OldStandardTT", sans-serif;
+  font: normal 400 3rem/1.1 "Mulish", sans-serif;
 }
 
 h3 small {
@@ -518,7 +508,7 @@ h3.light small {
 }
 
 h4 {
-  font: normal 400 2.8rem/1.2 "OldStandardTT", sans-serif;
+  font: normal 400 2.8rem/1.2 "Mulish", sans-serif;
   margin-bottom: 2.4rem;
 }
 
@@ -531,7 +521,7 @@ h4.light {
 }
 
 h5 {
-  font: normal 400 2.4rem/1.2 "OldStandardTT", sans-serif;
+  font: normal 400 2.4rem/1.2 "Mulish", sans-serif;
 }
 
 h5.dark {
@@ -1105,7 +1095,7 @@ form .inputs-description {
 }
 
 .reply-group__title {
-  font: normal 400 3rem/1.06 "OldStandardTT", sans-serif;
+  font: normal 400 3rem/1.06 "Mulish", sans-serif;
   color: #111111;
 }
 
@@ -1853,7 +1843,7 @@ form .inputs-description {
 .menu__navigation .navigation-content .navigation li a {
   display: inline-block;
   position: relative;
-  font: normal 400 4rem/1.2 "OldStandardTT", sans-serif;
+  font: normal 400 4rem/1.2 "Mulish", sans-serif;
   -webkit-transition: color 0.3s ease-in-out;
   -o-transition: color 0.3s ease-in-out;
   -moz-transition: color 0.3s ease-in-out;
@@ -2170,7 +2160,7 @@ form .inputs-description {
 }
 
 .countdown-days #countdown {
-  font: normal 400 11rem/1 "OldStandardTT", sans-serif;
+  font: normal 400 11rem/1 "Mulish", sans-serif;
   letter-spacing: -0.2rem;
   margin-top: 3rem;
   margin-bottom: 1rem;
@@ -2877,7 +2867,7 @@ form .inputs-description {
 }
 
 .popup-title__title {
-  font: normal 400 3rem/1.2 "OldStandardTT", sans-serif;
+  font: normal 400 3rem/1.2 "Mulish", sans-serif;
   margin-bottom: 3rem;
 }
 
@@ -2951,7 +2941,7 @@ form .inputs-description {
   position: absolute;
   top: 0;
   left: 2px;
-  font: normal 400 2.6rem/1.06 "OldStandardTT", sans-serif;
+  font: normal 400 2.6rem/1.06 "Mulish", sans-serif;
   color: #111111;
   height: 4rem;
   line-height: 4.6rem;
@@ -2980,7 +2970,7 @@ form .inputs-description {
   position: absolute;
   top: 0;
   right: 2px;
-  font: normal 400 2.4rem/1.06 "OldStandardTT", sans-serif;
+  font: normal 400 2.4rem/1.06 "Mulish", sans-serif;
   color: #111111;
   height: 4rem;
   line-height: 4.6rem;
@@ -3435,7 +3425,7 @@ form .inputs-description {
 }
 
 .pswp__caption__center h3 {
-  font: normal 400 3rem/1.2 "OldStandardTT", sans-serif;
+  font: normal 400 3rem/1.2 "Mulish", sans-serif;
   margin-bottom: 2rem;
   color: #ffffff;
 }
@@ -3455,7 +3445,7 @@ form .inputs-description {
 }
 
 .pswp__counter {
-  font-family: "OldStandardTT", sans-serif;
+  font-family: "Mulish", sans-serif;
   font-size: 1.6rem;
 }
 

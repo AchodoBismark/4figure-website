@@ -43,10 +43,10 @@
 }
 
 @font-face {
-  font-family: "OldStandardTT";
+  font-family: "Mulish";
   font-style: normal;
   font-weight: 400;
-  src: url("../fonts/OldStandardTT-Regular/OldStandardTT-Regulard41d.eot?#iefix") format("embedded-opentype"), url("../fonts/OldStandardTT-Regular/OldStandardTT-Regular.woff") format("woff"), url("../fonts/OldStandardTT-Regular/OldStandardTT-Regular.ttf") format("truetype"), url("../fonts/OldStandardTT-Regular/OldStandardTT-Regular.svg#OldStandardTT") format("svg");
+  src: url("../fonts/Mulish-Regular/Mulish-Regulard41d.eot?#iefix") format("embedded-opentype"), url("../fonts/Mulish-Regular/Mulish-Regular.woff") format("woff"), url("../fonts/Mulish-Regular/Mulish-Regular.ttf") format("truetype"), url("../fonts/Mulish-Regular/Mulish-Regular.svg#Mulish") format("svg");
 }
 
 /* ------------------------------------------------*/
@@ -121,7 +121,7 @@ a {
 }
 
 h1 {
-  font: normal 400 3.4rem/1.2 "OldStandardTT", sans-serif;
+  font: normal 400 3.4rem/1.2 "Mulish", sans-serif;
   color: #000000;
   max-width: 500px;
   margin: 0 auto 1.2rem;
@@ -685,7 +685,7 @@ header .buttons {
 }
 
 .demo__headline .title {
-  font: normal 400 3rem/1.2 "OldStandardTT", sans-serif;
+  font: normal 400 3rem/1.2 "Mulish", sans-serif;
   color: #111111;
   margin-bottom: 2.4rem;
 }
@@ -852,7 +852,7 @@ figure figcaption p {
 }
 
 .subscribe-title .title {
-  font: normal 400 3rem/1.2 "OldStandardTT", sans-serif;
+  font: normal 400 3rem/1.2 "Mulish", sans-serif;
   color: #ffffff;
 }
 
@@ -896,7 +896,7 @@ figure figcaption p {
 }
 
 .reply-group__title {
-  font: normal 400 3rem/1.06 "OldStandardTT", sans-serif;
+  font: normal 400 3rem/1.06 "Mulish", sans-serif;
   color: #ffffff;
 }
 
@@ -1001,14 +1001,14 @@ form input {
 }
 
 .demo__footer p {
-  font: normal 400 2rem/1.2 "OldStandardTT", sans-serif;
+  font: normal 400 2rem/1.2 "Mulish", sans-serif;
   text-align: center;
   color: #000000;
 }
 
 .demo__footer a {
   position: relative;
-  font: normal 400 2rem/1.8 "OldStandardTT", sans-serif;
+  font: normal 400 2rem/1.8 "Mulish", sans-serif;
   color: #000000;
   -webkit-transition: color .5s ease-in-out;
   -o-transition: color .5s ease-in-out;
