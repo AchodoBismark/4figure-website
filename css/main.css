@@ -639,6 +639,7 @@ p.section-text:last-of-type {
   border: 1px solid #191919;
   background-color: #191919;
   color: #ffffff;
+  border-radius: 200px;
 }
 
 .no-touch .btn-l.dark:hover {
@@ -648,6 +649,7 @@ p.section-text:last-of-type {
 
 .btn-l.light {
   font-weight: 600;
+  border-radius: 200px;
   border: 1px solid #ffffff;
   background-color: #ffffff;
   color: #111111;
