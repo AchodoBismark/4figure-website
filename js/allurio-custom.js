@@ -264,7 +264,7 @@ $(function() {
 		var th = $(this);
 		$.ajax({
 			type: "POST",
-			url: "../mail/mail-m.php", //Change
+			url: "./mail/mail-m.php", //Change
 			data: th.serialize()
 		}).done(function() {
       $('.contact').find('.form').addClass('is-hidden');
