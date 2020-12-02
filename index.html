@@ -852,12 +852,12 @@
 
                           <!-- Contact Form Start -->
                           <form class="form contact-form form-light" id="contact-form" method="POST">
-                            <input class="" type="text" name="name" placeholder="Your Name*" required>
-                            <input class="" type="email" name="email" placeholder="Email Address*" required>
-                            <input class="" type="tel" name="phone" placeholder="Phone Number*" required>
-                            <textarea class="" name="Message" placeholder="A Few Words*" required></textarea>
+                            <input class="" id="name" type="text" name="name" placeholder="Your Name*" required>
+                            <input class="" id="email" type="email" name="email" placeholder="Email Address*" required>
+                            <input class="" id="phone" type="tel" name="phone" placeholder="Phone Number*" required>
+                            <textarea class="" id="message"name="message" placeholder="A Few Words*" required></textarea>
                             <span class="inputs-description">*Required fields</span>
-                            <button class="btn btn-l light" type="submit">Send</button>
+                            <button class="btn btn-l light" type="submit" class="g-recaptcha" data-sitekey="6LehxfUZAAAAAEJPM53RaIebwuDbtwDuBaAJK0Uu" data-callback='onSubmit' data-action='submit'>Send</button>
                           </form>
                           <!-- Contact Form End  -->
 
@@ -934,6 +934,7 @@
                   </li>
                 </ul>
                 <p class="dark mt-5"> &#169; 2020 <a href="https://4figure.ng" class="light">4 Figure Creatives LLC.</a> All rights reserved</p>
+                <p class="dark mt-5"><a href="./privacy-policy.html" class="light">Read our Privacy Policy</a></p>
               </div>
               
               <!-- Footer Socials End -->
@@ -1191,6 +1192,7 @@
     <script src="js/gallery-init.js"></script>
     <script src="js/ScrollMagic.js"></script>
     <script src="js/allurio-custom.js"></script>
+    <script src="https://www.google.com/recaptcha/api.js"></script>
     <!-- Load Scripts End -->
 
     <!-- ScrollMagic Settings Start -->
@@ -1235,6 +1237,15 @@
 			.addTo(controller);
     </script>
     <!-- ScrollMagic Settings End -->
+
+    <!-- Google recaptcha -->
+    <script>
+      function onSubmit(token) {
+      document.getElementById("contact-form").submit();
+      }
+    </script>
+    <!-- Google recaptcha End -->
+
 
   </body>
 
