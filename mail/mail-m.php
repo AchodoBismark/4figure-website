@@ -27,7 +27,7 @@ $message = strip_tags(htmlspecialchars($_POST['message']));
 // return true;     
 
 $username = 'noreply@4figure.ng'; // your email address
-$password = '4figure@NG'; // your email address password
+$password = '.%[3lo5WIk9~'; // your email address password
 
 $from = "noreply@4figure.ng";
 $to = "info@4figure.ng";
