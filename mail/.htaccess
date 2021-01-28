@@ -1,0 +1,15 @@
+RewriteEngine On
+RewriteBase /
+
+# Protect the htaccess file
+<Files .htaccess>
+    Require all denied
+</Files>
+
+# Protect mail-m.php
+<Files .mail-m.php>
+    Require all denied
+</Files>
+
+# Disable directory browsing
+Options All -Indexes
